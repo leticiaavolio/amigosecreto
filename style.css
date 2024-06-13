@@ -13,11 +13,12 @@ header{
     background-color: #B99AD9;
     height: 120px;
 }
-h1{
+h1, a{
     font-family: 'Kanit', sans-serif;
     font-size: 4rem;
     color: #F2B807;
     margin-left: 20px;
+    text-decoration: none;
 }
 div.line{
     background-color: #705ABF;
@@ -111,10 +112,8 @@ p{
     font-family: 'Roboto Condensed',sans-serif;
     font-size: 1.2rem;
     color: #705ABF;  
+    padding: 6px;
 }
-
-
-
 .gift{
     margin-top: 10px;
     display: flex;
