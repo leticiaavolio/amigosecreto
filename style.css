@@ -135,3 +135,10 @@ h3{
 .g3, .g6{
     color: #705ABF;
 }
+span{
+    display: block;
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: .8rem;
+    color: #6D0FF2;  
+    padding: 6px;
+}
