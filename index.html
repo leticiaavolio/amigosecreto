@@ -22,25 +22,25 @@
             <div class="inserir">
                 <div class="insNome">
                     <form>
-                        <label for="nome">Digite o nome do amigo</label><br>
-                        <input type="text" name="nome" id="nome">
+                        <label for="nomeAmg">Digite o nome do amigo</label><br>
+                        <input type="text" name="nomeAmg" id="nomeAmg">
                     </form>
                 </div>
                 <div class="buttons">
-                    <button type="submit" class="adicionar">Adicionar</button>
-                    <button type="submit" class="sortear">Sortear</button>
-                    <button type="reset" class="reiniciar">Reiniciar</button>
+                    <button type="button"  onclick="addAmigos()">Adicionar</button>
+                    <button type="button" onclick="sortearAmigos()">Sortear</button>
+                    <button type="button" class="reiniciar">Reiniciar</button>
                 </div>
                 <div class="showNome">
                     <label for="nome">Amigos inseridos para o Sorteio</label><br>
-                    <input type="text" name="nome">
+                    <input type="text" name="nome" id="nomesAdd">
                 </div>
             </div>
 
             <div class="sorteio">
                 <h3>Sorteio</h3>
                 <div class="nomeSor">
-                    <p class="duplas">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nostrum, molestiae eius architecto cupiditate iste soluta reprehenderit vitae ipsam sed amet, cum ut rem doloribus officiis iusto sunt mollitia. Veritatis!</p>
+                    <div class="duplas"></div>
                 </div>
             </div>
         </section>
@@ -53,5 +53,6 @@
             <span class="material-symbols-outlined g6">featured_seasonal_and_gifts</span>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
