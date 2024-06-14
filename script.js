@@ -6,12 +6,7 @@ function addAmigos(){
     if(nome){
         participantes.push(nome);
         document.getElementById("nomeAmg").value = "";
-
-        if(amigosParticipantes.includes(nomeInput)){
-            alert('Nome repetido');
-        }
-        else{
-            document.getElementById("nomesAdd").value = participantes.join(", ")
-        }
+        
+        document.getElementById("nomesAdd").value = participantes.join(", ")
     }
 }
