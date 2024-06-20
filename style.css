@@ -142,3 +142,44 @@ span{
     color: #6D0FF2;  
     padding: 6px;
 }
+
+/*-----------------RESPONSIVO-----------------*/
+@media (max-width:1024px){
+    button{
+        font-size: .8rem;
+    }
+    label,p,input{
+        font-size: 1rem;
+    }
+}
+@media (max-width:768px) {
+    .principal{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .inserir,.sorteio{
+        width: 80%;
+    }
+    .inserir{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:425px){
+    h1, a{
+        font-size: 2.2rem;
+        margin-left: 20px;
+    }
+    .material-symbols-outlined {
+        font-size: 2.2rem; 
+    }
+    button{
+        font-size: .8rem;
+    }
+    label,p,input{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+}
