@@ -138,9 +138,12 @@ h3{
 span{
     display: block;
     font-family: 'Roboto Condensed',sans-serif;
-    font-size: .8rem;
+    font-size: 1rem;
     color: #6D0FF2;  
     padding: 6px;
+}
+ul{
+    list-style: none;
 }
 
 /*-----------------RESPONSIVO-----------------*/
